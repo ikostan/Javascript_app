@@ -1,0 +1,99 @@
+/*Background color*/
+body{
+	
+	background-color:#ffaeae;
+}
+
+/*q1 - main body div container*/
+#q1{
+	
+	border: 2px solid #ee0000;
+	border-radius: 12px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 1%;
+	padding-top: 0%;
+	margin-top: 8%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+/*Table*/
+table{
+
+	width: 100%;
+	border: 2px solid #ee0000;
+	margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 1%;
+    border-collapse: collapse;
+}
+
+td, tr, th{
+
+	border: 1px solid #ee0000;
+	padding-left: 5%;
+}
+
+tr:hover{
+
+	font-weight: bold;
+	background-color: #b5c7af;
+}
+
+/*horizontal line*/
+hr{
+
+	height: 1px;
+	background-color: #ee0000;
+}
+
+/*Start button*/
+#btn{
+
+	text-align: center;
+}
+
+/*Set all hands invisible*/
+#lhand, #rhand{
+
+	visibility: hidden;
+}
+
+/*Error*/
+#error{
+
+	display: none;
+	visibility: hidden;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	padding-left: 5%; 
+	padding-right: 5%; 
+	background-color: #d6dd75;
+	color: #d20000;
+	font-weight: bold;
+}
+
+/*Total earned style*/
+.bold{
+
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: #eaf2ac;
+}
+
+h3{
+
+	margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+}
+
+#selected{
+	
+	font-weight: bold;
+	font-size: 1.1em;
+	background-color:#f1f482
+}

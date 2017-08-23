@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weekly tax deduction</title>
+		
+		<meta charset="UTF-8">
+  		<meta name="course" content="Advanced Javascript: Summer 2017">
+  		<meta name="assignment" content="ASSIGNMENT 1">
+  		<meta name="student name" content="">
+  		<meta name="student ID" content="">
+  		
+  		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		
+		<script src="js/animation.js"></script>
+		<script src="js/calculator.js"></script>
+  		
+	</head>
+	<body onload="timer(); displayData();">
+		
+		
+		<div id="q1">
+		<h1>Weekly tax deduction</h1>
+		<table>
+		
+		<thead>
+		
+			<tr>
+				<th>Data name</th>
+				<th>Value</th>
+			</tr>
+			
+		</thead>
+		
+		<tbody>
+		
+			<tr>
+				<td>The hourly pay rate</td>
+				<td><span id="hourRate"></span></td>
+			</tr>
+			<tr>
+				<td>The number of hours worked</td>
+				<td><span id="hourWorked"></span></td>
+			</tr>
+			<tr>
+				<td>The number of dependents</td>
+				<td><span id="depend"></span></td>
+			</tr>
+			<tr>
+				<td>Tax rate</td>
+				<td><span id="taxRate"></span></td>
+			</tr>
+			
+		</tbody>
+		
+		<tfoot>
+			<tr>
+				<td>Deduction</td>
+				<td><span id="deduct"></span></td>
+			</tr>
+			<tr class="bold">
+				<td>Total earned (after deduction)</td>
+				<td><span id="total"></span></td>
+			</tr>
+		</tfoot>
+		
+		</table>
+				
+		<div id="btn"><span id="lhand">&#9755;&nbsp;&#9755;&nbsp;&#9755;&nbsp;</span>&nbsp;<button type="button" id="close" onClick="closeWindow()">Back</button>&nbsp;<span id="rhand">&nbsp;&#9754;&nbsp;&#9754;&nbsp;&#9754;</span></div>
+		
+		</div>
+				
+	</body>
+</html>

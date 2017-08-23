@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Employee Pay Calculator</title>
+		
+		<meta charset="UTF-8">
+  		<meta name="course" content="Advanced Javascript: Summer 2017">
+  		<meta name="assignment" content="ASSIGNMENT 1">
+  		<meta name="student name" content="">
+  		<meta name="student ID" content="">
+		
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		
+		<script src="js/calculator.js"></script>
+		<script src="js/animation.js"></script>				
+	</head>
+	<body onload="timer()">
+
+		<div id="q1">
+
+		<h1>Employee Pay Calculator</h1>
+		<hr/>
+		<p>This web page will calculate an employee&apos;s weekly tax deduction. You will be asked for the employee&apos;s hourly pay rate, the number of hours worked by the employee for the current week and the number of dependents claimed by that employee. Please click on the &Prime;Start&Prime; button when you are ready to begin.</p>
+		<hr/>		
+		<div id="btn"><span id="lhand">&#9755;&nbsp;&#9755;&nbsp;&#9755;&nbsp;</span>&nbsp;<button type="button" id="calc" onClick="main()">Start</button>&nbsp;<span id="rhand">&nbsp;&#9754;&nbsp;&#9754;&nbsp;&#9754;</span></div>
+		
+		<div id="error"></div>
+	</div>	
+		
+	</body>
+</html>

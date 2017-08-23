@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GPA</title>
+		<meta charset="UTF-8">
+  		<meta name="course" content="Advanced Javascript: Summer 2017">
+  		<meta name="assignment" content="ASSIGNMENT 1">
+  		<meta name="student name" content="">
+  		<meta name="student ID" content="">
+  		
+  		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		
+		<script src="js/gpa.js"></script>
+		<script src="js/animation.js"></script>
+		
+	</head>
+	<body onload="timer(); displayData();">
+		
+		<div id="q1">
+		
+		<h3>Percentage, Letter Grade and GPA for a Student</h3>
+		
+		<p>Percentage: <span id="prcnt"></span></p>
+		<p>Letter Grade: <span id="lg"></span></p>
+		<p>GPA: <span id="gpa"></span></p>
+		
+		<hr/>
+		
+		<h3>Complete letter grade transposition table</h3>
+		
+		<table>
+		
+		<thead>
+		
+			<tr>
+				<th>Percentage</th>
+				<th>Letter Grade</th>
+				<th>GPA</th>
+			</tr>
+			
+		</thead>
+		
+		<tbody>
+		
+			<tr id="1">
+				<td>95-100%</td>
+				<td>A+</td>
+				<td>4.33</td>
+			</tr>
+			<tr id="2">
+				<td>90-94%</td>
+				<td>A</td>
+				<td>4.00</td>
+			</tr>
+			<tr id="3">
+				<td>85-89%</td>
+				<td>A-</td>
+				<td>3.67</td>
+			</tr>
+			<tr id="4">
+				<td>80-84%</td>
+				<td>B+</td>
+				<td>3.33</td>
+			</tr>
+			<tr id="5">
+				<td>75-79%</td>
+				<td>B</td>
+				<td>3.00</td>
+			</tr>
+			<tr id="6">
+				<td>70-74%</td>
+				<td>B-</td>
+				<td>2.67</td>
+			</tr>
+			<tr id="7">
+				<td>65-69%</td>
+				<td>C+</td>
+				<td>2.33</td>
+			</tr>
+			<tr id="8">
+				<td>60-64%</td>
+				<td>C</td>
+				<td>2.00</td>
+			</tr>
+			<tr id="9">
+				<td>55-59%</td>
+				<td>C-</td>
+				<td>1.67</td>
+			</tr>
+			<tr id="10">
+				<td>50-54%</td>
+				<td>P</td>
+				<td>1.00</td>
+			</tr>
+			<tr id="11">
+				<td>Below 50%</td>
+				<td>F</td>
+				<td>0.00</td>
+			</tr>
+			
+		</tbody>
+		
+		<tfoot>
+		</tfoot>
+		
+		</table>
+		
+		<div id="btn"><span id="lhand">&#9755;&nbsp;&#9755;&nbsp;&#9755;&nbsp;</span>&nbsp;<button type="button" id="close" onClick="closeWindow()">Back</button>&nbsp;<span id="rhand">&nbsp;&#9754;&nbsp;&#9754;&nbsp;&#9754;</span></div>
+		
+		</div>
+	</body>
+</html>
